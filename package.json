@@ -1,0 +1,40 @@
+{
+  "name": "@toolbi/react-ui",
+  "version": "0.0.0-development",
+  "description": "Our library of components for our website.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "*"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c",
+    "semantic-release": "semantic-release"
+  },
+  "license": "GPL-2.0-only",
+  "author": "toolbisoftware",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toolbisoftware/react-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toolbisoftware/react-ui/issues"
+  },
+  "homepage": "https://github.com/toolbisoftware/react-ui#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "latest",
+    "@types/jest": "latest",
+    "jest": "latest",
+    "rollup": "latest",
+    "rollup-plugin-copy": "latest",
+    "ts-jest": "latest",
+    "tslib": "latest",
+    "typescript": "latest"
+  }
+}
