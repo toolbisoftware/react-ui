@@ -12,6 +12,7 @@
     "*"
   ],
   "scripts": {
+    "dev": "nodemon",
     "test": "jest",
     "build": "rollup -c",
     "semantic-release": "semantic-release"
@@ -28,13 +29,24 @@
   },
   "homepage": "https://github.com/toolbisoftware/react-ui#readme",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-typescript": "latest",
     "@types/jest": "latest",
+    "@types/react": "^18.2.48",
+    "framer-motion": "^10.18.0",
     "jest": "latest",
+    "lucide-react": "^0.312.0",
+    "next": "^14.1.0",
+    "nodemon": "^3.0.3",
+    "react": "^18.2.0",
     "rollup": "latest",
     "rollup-plugin-copy": "latest",
+    "tailwindcss": "^3.4.1",
     "ts-jest": "latest",
     "tslib": "latest",
     "typescript": "latest"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
   }
 }
