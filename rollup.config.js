@@ -1,6 +1,7 @@
 // Copyright (c) Toolbi Software. All rights reserved.
 // Check the README file in the project root for more information.
 
+import cjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import copy from "rollup-plugin-copy";
 import pkg from "./package.json" assert { type: "json" };
@@ -31,6 +32,7 @@ export default {
         }
       ]
     }),
+    cjs(),
     typescript({
       tsconfig: "tsconfig.json"
     })
